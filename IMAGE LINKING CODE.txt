@@ -1,0 +1,64 @@
+ PLANNING
+3 sections:
+		home
+		gallery
+		menu
+
+ACTUAL CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IMAGE LINKING PROJECT</title>
+	<style>
+		/*CSS styles for better presentation*/
+		body{}
+		section{}
+		h2{}
+		p{}
+		nav{}
+		nav ul{}
+		nav li{}
+		nav a{}
+		nav a:hover{}
+	</style>
+</head>
+<nav>
+	<ul>
+		<li><a href="#home"></a>></li>
+		<li><a href="#gallery"></a></li>
+		<li><a href="#menu"></a></li>
+	</ul>
+</nav>
+<section id="home">
+	<h2>Home</h2>
+	<p>Welcome to my website, here you will find pictures on nature and a menu that contains local delicacies.Enjoy!</p>
+	*<a href="" target="_blank"><img src="code.jpg" alt="computer code" loading="lazy" style="max-width 100%;"></a>
+	(ADD LINKED IMAGE RELATED TO TECH)
+</section>
+
+<section id="gallery">
+	<h2>Gallery</h2>
+		<div class="image-grid">
+		<div><a href="" target="_blank"><img src="image1.jpg" alt="image 1" loading="lazy" style="max-width 100%;"></a></div>
+		<div><a href="" target="_blank"><img src="image2.jpg" alt="image 2" loading="lazy" style="max-width 100%;"></a></div>
+		<div><a href="" target="_blank"><img src="image3.jpg" alt="image 3" loading="lazy" style="max-width 100%;"></a></div>
+		<div><a href="" target="_blank"><img src="image4.jpg" alt="image 4" loading="lazy" style="max-width 100%;"></a></div>
+		</div
+	(ADD A GRID OF LINKED IMAGED RELATED TO NATURE)
+</section>
+
+<section id="menu">
+	<h2>Menu</h2>
+		<ul>
+			<li><Rice and chicken</ul><a href="" target="_blank"><img src="image1.jpg" alt="rice and chicken" loading="lazy" style="max-width 100%;"></a>
+			<li>Githeri</li><a href="" target="_blank"><img src="image2.jpg" alt="githeri" loading="lazy" style="max-width 100%;"></a>
+			<li>Ugali mayai</li><a href="" target="_blank"><img src="image3.jpg" alt="ugali mayai" loading="lazy" style="max-width 100%;"></a>
+			<li>Smocha</li><a href="" target="_blank"><img src="image4.jpg" alt="smocha" loading=<>"lazy" style="max-width 100%;"></a>
+			<li>Ugali matumbo</li><a href="" target="_blank"><img src="image5.jpg" alt="ugali matumbo" loading="lazy" style="max-width 100%;"></a>
+			</ul>
+		(ADD A LINKED IMAGE OF EACH FOOD LISTED ABOVE)
+</section>
+</body>
+</html>
